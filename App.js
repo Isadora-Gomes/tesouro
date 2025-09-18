@@ -6,6 +6,9 @@ export default function App() {
   const [location, setLocation] = useState(null);
   const [errorMsg, setErrorMsg] = useState(null);
 
+  let latitude = -23.11443;
+  let longitude = -45.70780;
+
   useEffect(() => {
     let subscription;
 
@@ -44,6 +47,9 @@ export default function App() {
           ? JSON.stringify(location.coords, null, 2)
           : "Carregando localização..."}
       </Text>
+
+      <Text>Latitude Tesouro: {latitude}</Text>
+      <Text>Longitude Tesouro: {longitude}</Text>
     </View>
   );
 }
