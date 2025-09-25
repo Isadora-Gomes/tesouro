@@ -16,8 +16,8 @@ export default function App() {
   const soundRef = useRef(null);
   const treasureFoundRef = useRef(false);
 
-  let latitude = -23.11412;
-  let longitude = -45.70905;
+  let latitude = -23.11438;
+  let longitude = -45.70770;
   const TREASURE_DISTANCE_THRESHOLD = 5;
 
   const loadSound = async () => {
