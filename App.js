@@ -1,3 +1,4 @@
+// Ana Lívia Lopes, Isadora Gomes, Gabriel Reis
 import * as Location from 'expo-location';
 import { Audio } from 'expo-av';
 import { useState, useEffect, useRef } from 'react';
